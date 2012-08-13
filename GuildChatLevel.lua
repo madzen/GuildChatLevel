@@ -2,7 +2,7 @@
 
 
 	GuildChatLevel: Prefixes guild chat messages with the level and class of the person speaking
-		Copyright 2006 Ryuji of Legio Septima (Quel'Thalas)
+		Copyright (C) 2006-2012 Madzen
 
 
 ]]
@@ -266,7 +266,6 @@ function GetClass(class)
 	elseif (class == "Priest") then
 		classResult = "P";
 	elseif (class == "Paladin") then
-		-- Trust the Alliance to mess everything up and require a double character code ;)
 		classResult = "Pn";
 	end
 
