@@ -1,0 +1,5 @@
+## Interface: 11000
+## Title: GuildChatLevel
+## Notes: Prefixes messages in Guild Chat with the level and class of the person speaking.
+## SavedVariablesPerCharacter: GuildChatLevel_Enabled
+GuildChatLevel.xml

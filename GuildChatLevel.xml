@@ -1,0 +1,21 @@
+<!--
+
+	GuildChatLevel: Prefixes guild chat messages with the level and class of the person speaking
+		Copyright 2006 Ryuji of Legio Septima (Quel'Thalas)
+
+-->
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="GuildChatLevel.lua"/>
+	<Frame name="GuildChatLevelFrame" toplevel="true" frameStrata="LOW" enableMouse="true" parent="UIParent">
+		<Scripts>
+			<OnLoad>
+				GuildChatLevel_OnLoad();
+			</OnLoad>
+			<OnEvent>
+				GuildChatLevel_OnEvent(event);
+			</OnEvent>
+		</Scripts>
+	</Frame>
+	<GameTooltip name="GuildChatLevelTooltip" inherits="GameTooltipTemplate" parent="UIParent" hidden="true"/>
+</Ui>
